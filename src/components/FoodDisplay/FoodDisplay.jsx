@@ -12,7 +12,7 @@ function FoodDisplay({ category }) {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 20000); // Simulated delay
+    }, 4000); // Simulated delay
   }, []);
 
   return (
